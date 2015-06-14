@@ -1,0 +1,25 @@
+init:
+build-project:
+     [echo] simuladorJava: C:\Users\user\gitSimulacion\simuladorJava\build.xml
+build:
+DiscreteEventSimulation:
+     [java] 0.0 machine working
+     [java] 22.867878328343984 machine failure
+     [java] 22.867878328343984 starting repair
+     [java] 26.310520314940895 machine working
+     [java] 43.407270552231026 machine failure
+     [java] 43.407270552231026 starting repair
+     [java] 50.926868742615945 machine working
+     [java] 60.0 user check: working 100%
+     [java] 72.3933635459548 machine failure
+     [java] 72.3933635459548 starting repair
+     [java] 81.08439568815234 machine working
+     [java] 107.79211669190045 machine failure
+     [java] 107.79211669190045 starting repair
+     [java] 114.2342353842227 machine working
+     [java] 120.0 user check: working 100%
+     [java] 134.0 machine failure
+     [java] 180.0 user check: working 66%
+     [java] 190.0 starting repair
+BUILD SUCCESSFUL
+Total time: 1 second
