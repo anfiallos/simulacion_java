@@ -25,7 +25,6 @@ public class SimulationTrace {
 	}
 	
 	public void setup() {
-	//System.out.println("entro");
 		Event machineEvent = new Event();
 		machineEvent.setHandler(m);
 		machineEvent.setType(working);
@@ -44,7 +43,7 @@ public class SimulationTrace {
 		boolean flag = true;
 		int first = 0;
 	//	while (!h.isEmpty() && h.peek().getTime()<=maxTime) {
-		while (flag == true  )  {	
+		while (!h.isEmpty() && flag == true  )  {	
 				
 		
 			try{
@@ -59,7 +58,7 @@ public class SimulationTrace {
 			        	  String[] tokens = strLine.split(" ");
 			        	  Record record = new Record(tokens[0],tokens[1],tokens[2]);//process record , etc
 		
-			//   h.remove();   
+			    h.remove();   
 			   
 				Event nextEvent  = new Event();
 				dateUser= Double.parseDouble(tokens[1]);

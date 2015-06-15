@@ -5,7 +5,7 @@ public class DiscreteEventSimulation {
 		
 		SimulationTrace s = new SimulationTrace();
 		
-	//	s.setup(); // setup simulation;
+		s.setup(); // setup simulation;
 		
 		s.run(1000);// run of simulation
 		
