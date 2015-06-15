@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 
+
 public class SimulationTrace {
 	public Random generator = new Random(); // random number generator
 	public EventHeap h;
